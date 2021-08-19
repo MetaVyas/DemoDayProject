@@ -18,6 +18,7 @@ html {
     margin: 30px;
     border-radius: 10px;
     text-decoration: none;
+   
 }
 .navitem:hover{
     background-color: rgb(255, 255, 255);
@@ -57,7 +58,6 @@ ul{
     border-radius: 10px;
   }
 img{
-    
     max-width: 100%;
     height: auto;
     border-radius: 10px;
@@ -112,7 +112,7 @@ h5 {
     filter: drop-shadow(1px 1px 2px #000000);
     vertical-align: middle;
     font-size: 1000%;
-    line-height: 1100%;
+    line-height: 1000%;
 }
 
 .carousel-pop{
