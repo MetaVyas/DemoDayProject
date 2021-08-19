@@ -70,19 +70,19 @@ function setup() {
         }
 
     if ((keyIsDown(LEFT_ARROW)||keyIsDown(65))&&smokeyX>=25) {
-        smokeyX -= 5;
+        smokeyX -= 8;
       }
       
       if ((keyIsDown(RIGHT_ARROW)||keyIsDown(68))&&smokeyX<=450) {
-        smokeyX += 5;
+        smokeyX += 8;
       }
       
       if ((keyIsDown(UP_ARROW)||keyIsDown(87))&&smokeyY>=25) {
-        smokeyY -= 5;
+        smokeyY -= 8;
       }
       
       if ((keyIsDown(DOWN_ARROW)||keyIsDown(83))&&smokeyY<=450) {
-        smokeyY += 5;
+        smokeyY += 8;
       }
       image(smokey,smokeyX,smokeyY,100,100);
       
@@ -93,7 +93,8 @@ function setup() {
     textAlign(LEFT);
     text("Score:",5,15);
     textAlign(CENTER);
-    text(score,25,30)
+    text(score,25,30);
+    text("High:"+highScore, 25,45);
     if (keyIsDown(81)){
       swch = 2;
     }
